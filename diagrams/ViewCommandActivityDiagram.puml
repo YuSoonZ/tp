@@ -15,6 +15,7 @@ else ([else])
                     :Show error message indicating\ninvalid index;
                     else ([else])
                         :Show success message\nwith person's information;
+                        :Display Person's details on\nside panel;
                     endif;
                 endif;
             endif;

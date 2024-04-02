@@ -4,7 +4,7 @@ skinparam ArrowFontStyle plain
 
 box Logic LOGIC_COLOR_T1
 participant ":LogicManager" as LogicManager LOGIC_COLOR
-participant ":AddressBookParser" as AddressBookParser LOGIC_COLOR
+participant ":TaToolkitParser" as TaToolkitParser LOGIC_COLOR
 participant ":EditCommandParser" as EditCommandParser LOGIC_COLOR
 participant "e:EditCommand" as EditCommand LOGIC_COLOR
 participant ":CommandResult" as CommandResult LOGIC_COLOR
@@ -17,17 +17,17 @@ end box
 [-> LogicManager : execute("uc 1 n/Harry Potter p/98765432")
 activate LogicManager
 
-LogicManager -> AddressBookParser : parseCommand("uc 1 n/Harry Potter p/98765432")
-activate AddressBookParser
+LogicManager -> TaToolkitParser : parseCommand("uc 1 n/Harry Potter p/98765432")
+activate TaToolkitParser
 
 create EditCommandParser
-AddressBookParser -> EditCommandParser
+TaToolkitParser -> EditCommandParser
 activate EditCommandParser
 
-EditCommandParser --> AddressBookParser
+EditCommandParser --> TaToolkitParser
 deactivate EditCommandParser
 
-AddressBookParser -> EditCommandParser : parse("uc 1 n/Harry Potter p/98765432")
+TaToolkitParser -> EditCommandParser : parse("uc 1 n/Harry Potter p/98765432")
 activate EditCommandParser
 
 create EditCommand
@@ -37,15 +37,15 @@ activate EditCommand
 EditCommand --> EditCommandParser
 deactivate EditCommand
 
-EditCommandParser --> AddressBookParser
+EditCommandParser --> TaToolkitParser
 deactivate EditCommandParser
 
 'Hidden arrow to position the destroy marker below the end of the activation bar.
-EditCommandParser -[hidden]-> AddressBookParser
+EditCommandParser -[hidden]-> TaToolkitParser
 destroy EditCommandParser
 
-AddressBookParser --> LogicManager
-deactivate AddressBookParser
+TaToolkitParser --> LogicManager
+deactivate TaToolkitParser
 
 LogicManager -> EditCommand : execute()
 activate EditCommand

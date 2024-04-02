@@ -142,15 +142,7 @@
       "src": "team/ivan.md",
       "title": "Ivan's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "team/johndoe.md",
-      "title": "John Doe's Project Portfolio Page",
-      "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },
       "headingKeywords": {}
     },
@@ -158,7 +150,7 @@
       "src": "team/kailashgautham.md",
       "title": "Kailash Gautham's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },
       "headingKeywords": {}
     },
@@ -166,7 +158,7 @@
       "src": "team/ngyusoon.md",
       "title": "Yu Soon's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },
       "headingKeywords": {}
     },
@@ -174,7 +166,7 @@
       "src": "team/tejasgarrepally.md",
       "title": "Tejas Garrepally's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },
       "headingKeywords": {}
     },
@@ -182,7 +174,7 @@
       "src": "team/teojunda.md",
       "title": "Axel's Project Portfolio Page",
       "headings": {
-        "project-addressbook-level-3": "Project: AddressBook Level 3"
+        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },
       "headingKeywords": {}
     },

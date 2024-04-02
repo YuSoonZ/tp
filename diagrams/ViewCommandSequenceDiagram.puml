@@ -4,7 +4,7 @@ skinparam ArrowFontStyle plain
 
 box Logic LOGIC_COLOR_T1
 participant ":LogicManager" as LogicManager LOGIC_COLOR
-participant ":AddressBookParser" as AddressBookParser LOGIC_COLOR
+participant ":TaToolkitParser" as TaToolkitParser LOGIC_COLOR
 participant ":ViewCommandParser" as ViewCommandParser LOGIC_COLOR
 participant "v:ViewCommand" as ViewCommand LOGIC_COLOR
 participant ":CommandResult" as CommandResult LOGIC_COLOR
@@ -17,18 +17,18 @@ end box
 [-> LogicManager : execute("view 1")
 activate LogicManager
 
-LogicManager -> AddressBookParser : parseCommand("view 1")
-activate AddressBookParser
+LogicManager -> TaToolkitParser : parseCommand("view 1")
+activate TaToolkitParser
 
 create ViewCommand
-AddressBookParser -> ViewCommand
+TaToolkitParser -> ViewCommand
 activate ViewCommand
 
-ViewCommand --> AddressBookParser : v
+ViewCommand --> TaToolkitParser : v
 deactivate ViewCommand
 
-AddressBookParser --> LogicManager : v
-deactivate AddressBookParser
+TaToolkitParser --> LogicManager : v
+deactivate TaToolkitParser
 
 LogicManager -> ViewCommand : execute()
 activate ViewCommand

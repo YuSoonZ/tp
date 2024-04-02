@@ -455,7 +455,7 @@ with(this){return _c('p',[_c('em',[_v("{More to be added}")])])}
 with(this){return _c('h3',{attrs:{"id":"glossary"}},[_v("Glossary"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#glossary","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("CLI")]),_v(": Command Line Interface: A way of interacting with a computer program where the user issues commands to the\nprogram in the form of successive lines of text (command lines). It emphasises text-based user interaction over graphical user interfaces.")]),_v(" "),_c('li',[_c('strong',[_v("TA")]),_v(": Teaching Assistant")]),_v(" "),_c('li',[_c('strong',[_v("OOP")]),_v(": Object-Oriented Programming")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Mainstream OS")]),_v(": Windows, Linux, Unix, MacOS")]),_v(" "),_c('li',[_c('strong',[_v("CLI")]),_v(": Command Line Interface: A way of interacting with a computer program where the user issues commands to the\nprogram in the form of successive lines of text (command lines). It emphasises text-based user interaction over graphical user interfaces.")]),_v(" "),_c('li',[_c('strong',[_v("TA")]),_v(": Teaching Assistant")]),_v(" "),_c('li',[_c('strong',[_v("OOP")]),_v(": Object-Oriented Programming")]),_v(" "),_c('li',[_c('strong',[_v("API")]),_v(": Application Programming Interface")]),_v(" "),_c('li',[_c('strong',[_v("GUI")]),_v(": Graphical User Interface")]),_v(" "),_c('li',[_c('strong',[_v("MSS")]),_v(": Main Success Scenario: The main flow of events in a use case.")]),_v(" "),_c('li',[_c('strong',[_v("TA")]),_v(": Teaching Assistant")])])}
 },function anonymous(
 ) {
 with(this){return _c('h2',{attrs:{"id":"appendix-instructions-for-manual-testing"}},[_c('strong',[_v("Appendix: Instructions for manual testing")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#appendix-instructions-for-manual-testing","onclick":"event.stopPropagation()"}})])}
@@ -479,6 +479,6 @@ with(this){return _c('h3',{attrs:{"id":"saving-data"}},[_v("Saving data"),_c('a'
 with(this){return _c('ol',[_c('li',[_c('p',[_v("Dealing with missing/corrupted data files")]),_v(" "),_c('ol',[_c('li',[_c('em',[_v("{explain how to simulate a missing/corrupted file, and the expected behavior}")])])])]),_v(" "),_c('li',[_c('p',[_c('em',[_v("{ more test cases …​ }")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Tue, 2 Apr 2024, 10:33:29 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Tue, 2 Apr 2024, 12:09:26 GMT+8]")])])])}
 }];
   

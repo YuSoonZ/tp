@@ -110,14 +110,18 @@
       "title": "User Guide",
       "headings": {
         "ta-toolkit-user-guide": "TA Toolkit User Guide",
+        "how-to-use-ta-toolkit-s-user-guide": "How to Use TA Toolkit's User Guide",
         "quick-start": "Quick start",
+        "interface-walkthrough": "Interface walkthrough",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-person-ac": "Adding a person: ac",
-        "listing-all-persons-ls": "Listing all persons : ls",
         "updating-a-person-uc": "Updating a person : uc",
         "locating-persons-by-name-find": "Locating persons by name: find",
+        "listing-persons-ls": "Listing persons : ls",
         "viewing-a-person-view": "Viewing a person : view",
+        "adding-note-to-a-person-an": "Adding note to a person : an",
+        "deleting-note-from-a-person-dn": "Deleting note from a person : dn",
         "deleting-a-person-dc": "Deleting a person : dc",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",
@@ -125,8 +129,9 @@
         "editing-the-data-file": "Editing the data file",
         "archiving-data-files-coming-in-v2-0": "Archiving data files [coming in v2.0]",
         "faq": "FAQ",
-        "known-issues": "Known issues",
-        "command-summary": "Command summary"
+        "common-mistakes": "Common mistakes",
+        "command-summary": "Command summary",
+        "glossary": "Glossary"
       },
       "headingKeywords": {}
     },

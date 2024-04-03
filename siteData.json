@@ -110,7 +110,7 @@
       "title": "User Guide",
       "headings": {
         "ta-toolkit-user-guide": "TA Toolkit User Guide",
-        "how-to-use-ta-toolkit-s-user-guide": "How to Use TA Toolkit's User Guide",
+        "how-to-use": "How to Use",
         "quick-start": "Quick start",
         "interface-walkthrough": "Interface walkthrough",
         "features": "Features",
@@ -122,6 +122,7 @@
         "viewing-a-person-view": "Viewing a person : view",
         "adding-note-to-a-person-an": "Adding note to a person : an",
         "deleting-note-from-a-person-dn": "Deleting note from a person : dn",
+        "marking-attendance-ma": "Marking attendance : ma",
         "deleting-a-person-dc": "Deleting a person : dc",
         "clearing-all-entries-clear": "Clearing all entries : clear",
         "exiting-the-program-exit": "Exiting the program : exit",

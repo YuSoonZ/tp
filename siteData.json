@@ -111,8 +111,13 @@
       "headings": {
         "ta-toolkit-user-guide": "TA Toolkit User Guide",
         "how-to-use": "How to Use",
+        "labels": "Labels",
+        "key-terms": "Key Terms",
+        "person": "Person",
+        "attendance": "Attendance",
         "quick-start": "Quick start",
         "interface-walkthrough": "Interface walkthrough",
+        "parameters": "Parameters",
         "features": "Features",
         "viewing-help-help": "Viewing help : help",
         "adding-a-person-ac": "Adding a person: ac",

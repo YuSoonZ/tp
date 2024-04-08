@@ -62,10 +62,25 @@
         "use-cases": "Use cases",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
-        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "appendix": "Appendix",
+        "instructions-for-manual-testing": "Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
+        "adding-a-person": "Adding a person",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "update-a-person": "Update a person",
+        "view-a-person-2": "View a person",
+        "find-a-person-by-matching-name": "Find a person by matching name",
+        "mark-attendance": "Mark attendance",
+        "list-persons-in-a-class-view-attendance-for-a-class": "List persons in a class/ View attendance for a class",
+        "adding-a-note-to-a-person": "Adding a note to a person",
+        "deleting-a-note-from-a-person": "Deleting a note from a person",
+        "clearing-the-application-data": "Clearing the application data",
+        "help": "Help",
+        "exit": "Exit",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements",
+        "better-name-validation": "Better name validation",
+        "better-identification-of-unique-students": "Better identification of unique students",
+        "more-comprehensive-attendance-taking": "More comprehensive attendance taking"
       },
       "headingKeywords": {}
     },
@@ -159,9 +174,8 @@
     },
     {
       "src": "team/kailashgautham.md",
-      "title": "Kailash Gautham's Project Portfolio Page",
       "headings": {
-        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
+        "project-tatoolkit": "Project: TaToolkit"
       },
       "headingKeywords": {}
     },

@@ -165,6 +165,14 @@
       "headingKeywords": {}
     },
     {
+      "src": "team/g-tejas.md",
+      "title": "Tejas Garrepally's Project Portfolio Page",
+      "headings": {
+        "project-tatoolkit": "Project: TaToolkit"
+      },
+      "headingKeywords": {}
+    },
+    {
       "src": "team/ivan.md",
       "title": "Ivan's Project Portfolio Page",
       "headings": {
@@ -182,14 +190,6 @@
     {
       "src": "team/ngyusoon.md",
       "title": "Yu Soon's Project Portfolio Page",
-      "headings": {
-        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "team/tejasgarrepally.md",
-      "title": "Tejas Garrepally's Project Portfolio Page",
       "headings": {
         "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },

@@ -79,8 +79,10 @@
         "exit": "Exit",
         "appendix-planned-enhancements": "Appendix: Planned Enhancements",
         "better-name-validation": "Better name validation",
+        "better-email-validation": "Better email validation",
         "better-identification-of-unique-students": "Better identification of unique students",
-        "more-comprehensive-attendance-taking": "More comprehensive attendance taking"
+        "more-comprehensive-attendance-taking": "More comprehensive attendance taking",
+        "handling-duplicate-keys-in-json-object": "Handling duplicate keys in JSON object"
       },
       "headingKeywords": {}
     },
@@ -188,16 +190,16 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/ngyusoon.md",
-      "title": "Yu Soon's Project Portfolio Page",
+      "src": "team/teojunda.md",
+      "title": "Axel's Project Portfolio Page",
       "headings": {
         "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },
       "headingKeywords": {}
     },
     {
-      "src": "team/teojunda.md",
-      "title": "Axel's Project Portfolio Page",
+      "src": "team/yusoonz.md",
+      "title": "Yu Soon's Project Portfolio Page",
       "headings": {
         "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
       },

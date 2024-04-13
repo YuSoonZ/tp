@@ -42,6 +42,9 @@
       "headings": {
         "ta-toolkit-developer-guide": "TA Toolkit Developer Guide",
         "acknowledgements": "Acknowledgements",
+        "ng-yu-soon-s-acknowledgements": "Ng Yu Soon's Acknowledgements",
+        "tejas-garrepally-s-acknowledgements": "Tejas Garrepally's Acknowledgements",
+        "gautham-kailash-s-acknowledgements": "Gautham Kailash's Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
         "architecture": "Architecture",
@@ -82,7 +85,9 @@
         "better-email-validation": "Better email validation",
         "better-identification-of-unique-students": "Better identification of unique students",
         "more-comprehensive-attendance-taking": "More comprehensive attendance taking",
-        "handling-duplicate-keys-in-json-object": "Handling duplicate keys in JSON object"
+        "handling-duplicate-keys-in-json-object": "Handling duplicate keys in JSON object",
+        "errors-improvement": "Errors Improvement",
+        "ui-improvements": "UI Improvements"
       },
       "headingKeywords": {}
     },
@@ -142,8 +147,8 @@
         "locating-persons-by-name-find": "Locating persons by name: find",
         "listing-persons-ls": "Listing persons : ls",
         "viewing-a-person-view": "Viewing a person : view",
-        "adding-note-to-a-person-an": "Adding note to a person : an",
-        "deleting-note-from-a-person-dn": "Deleting note from a person : dn",
+        "adding-a-note-to-a-person-an": "Adding a note to a person : an",
+        "deleting-a-note-from-a-person-dn": "Deleting a note from a person : dn",
         "marking-attendance-ma": "Marking attendance : ma",
         "deleting-a-person-dc": "Deleting a person : dc",
         "clearing-all-entries-clear": "Clearing all entries : clear",
@@ -175,15 +180,22 @@
       "headingKeywords": {}
     },
     {
-      "src": "team/ivan.md",
+      "src": "team/hiivan.md",
       "title": "Ivan's Project Portfolio Page",
       "headings": {
-        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
+        "project-tatoolkit": "Project: TaToolkit",
+        "dynamic-side-panel-integration": "Dynamic Side Panel Integration",
+        "view-person-details": "View Person Details",
+        "attendance-view": "Attendance View",
+        "intelligent-command-recognition": "Intelligent Command Recognition",
+        "adherence-to-mvc-architecture": "Adherence to MVC Architecture",
+        "other-links": "Other Links"
       },
       "headingKeywords": {}
     },
     {
       "src": "team/kailashgautham.md",
+      "title": "Kailash Gautham's Project Portfolio Page",
       "headings": {
         "project-tatoolkit": "Project: TaToolkit"
       },
@@ -201,7 +213,10 @@
       "src": "team/yusoonz.md",
       "title": "Yu Soon's Project Portfolio Page",
       "headings": {
-        "project-tatoolkit-level-3": "Project: TaToolkit Level 3"
+        "project-tatoolkit-level-3": "Project: TaToolkit Level 3",
+        "technical-skills": "Technical Skills",
+        "challenges-and-problem-solving": "Challenges and Problem-Solving",
+        "results-and-impact": "Results and Impact"
       },
       "headingKeywords": {}
     },

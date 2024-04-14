@@ -30,7 +30,7 @@ pageNav: 3
 * Used ChatGPT to assist in writing my Project Portfolio Page in `docs/team/hiivan.md`.
 
 ### Axel Teo's Acknowledgements
-* Used ChatGPT to assist in writing my Project Portfolio Page in `doc/team/teojunda.md`.
+* Used ChatGPT to assist in writing my Project Portfolio Page in `docs/team/teojunda.md`.
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Setting up, getting started**

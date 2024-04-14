@@ -28,6 +28,9 @@ pageNav: 3
 
 ### Ivan Ang's Acknowledgements
 * Used ChatGPT to assist in writing my Project Portfolio Page in `docs/team/hiivan.md`.
+
+### Axel Teo's Acknowledgements
+* Used ChatGPT to assist in writing my Project Portfolio Page in `doc/team/teojunda.md`.
 --------------------------------------------------------------------------------------------------------------------
 
 ## **Setting up, getting started**
@@ -74,7 +77,7 @@ Each of the four main components (also shown in the diagram above),
 
 For example, the `Logic` component defines its API in the `Logic.java` interface and implements its functionality using the `LogicManager.java` class which follows the `Logic` interface. Other components interact with a given component through its interface rather than the concrete class (reason: to prevent outside component's being coupled to the implementation of a component), as illustrated in the (partial) class diagram below.
 
-<puml src="diagrams/ComponentManagers.puml" width="300" />
+<puml src="diagrams/ComponentManagers.puml" width="450" />
 
 The sections below give more details of each component.
 
@@ -101,7 +104,7 @@ The `UI` component,
 
 Here's a (partial) class diagram of the `Logic` component:
 
-<puml src="diagrams/LogicClassDiagram.puml" width="550"/>
+<puml src="diagrams/LogicClassDiagram.puml" width="300" />
 
 The sequence diagram below illustrates the interactions within the `Logic` component, taking `execute("dc 1")` API call as an example.
 
@@ -308,13 +311,6 @@ The following activity diagram summarizes what happens when a user executes a ne
   itself.
   * Pros: Will use less memory (e.g. for `dc`, just save the person being deleted).
   * Cons: We must ensure that the implementation of each individual command are correct.
-
-_{more aspects and alternatives to be added}_
-
-### \[Proposed\] Data archiving
-
-_{Explain here how the data archiving feature will be implemented}_
-
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -634,6 +630,7 @@ be able to accomplish most of the tasks faster using commands than using the mou
 * **Github ID**: A unique identifier for a Github account. E.g. johnDoe
 * **GUI**: Graphical User Interface: A mode of interacting with a computer program that relies on visual elements such as windows, icons, buttons, and menus.
 * **Hard disk**: A component of a computer system responsible for long-term storage of data.
+* **IETF**: Internet Engineering Task Force
 * **JSON file**: A JSON (JavaScript Object Notation) file is a structured data file format used for storing and transmitting data between the hard disk and TA Toolkit.
 * **Mainstream OS**: Windows, Linux, Unix, MacOS
 * **MSS**: Main Success Scenario: The main flow of events in a use case.
@@ -820,11 +817,9 @@ We will also trim the extra whitespace between words in a name to prevent confus
 
 **Issue**: This validation method does not strictly adhere to the IETF standards for email addresses.
 Consequently, our application may incorrectly deem invalid emails as valid.
-For instance, an email like a@12.34 may pass validation despite having a domain that violates IETF standards.
-Furthermore, while our validation accommodates formats commonly used by major email service providers like Google, Outlook, Hotmail, and Yahoo, the IETF's standards are more inclusive and may recognize additional formats.
+For instance, an email like abc@12.34 may pass validation despite having a domain that violates IETF standards.
 
-**Enhancement**: To address this issue, we aim to enhance our email validation process to align more closely with IETF standards and specific RFCs such as RFC3696, RFC5322, and RFC6854.
-This upgrade be able to accurately identify valid and invalid email addresses.
+**Enhancement**: To address this issue, we aim to enhance our email validation process to align more closely with IETF standards, as specified in [RFC5322](https://datatracker.ietf.org/doc/html/rfc6854).
 
 ### Better identification of unique students
 
